@@ -15,9 +15,9 @@ int main()
     printf("\nEnter no. of stairs: ");
     scanf("%d", &n);
 
-    for(int i=0; i<n; i++)
+    for(int i=0; i<n; i++) //no. of stairs
     {
-        for(int j=0; j<=i; j++)
+        for(int j=0; j<=i; j++) //no. of 01's in each stair
             printf("01");
         printf("\n");
     }
